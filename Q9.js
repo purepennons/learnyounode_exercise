@@ -1,8 +1,6 @@
 var http = require('http');
 var EventEmitter = require('events').EventEmitter;
 
-var async = require('async');
-
 var argv = process.argv;
 
 var readyEvent = new EventEmitter();
